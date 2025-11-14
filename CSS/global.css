@@ -1,16 +1,16 @@
 header{
-    background-color: #bbd49e;
+    background-color: hsl(88, 39%, 73%);
     color:#5d5646;
     position: fixed;
 }
 body{
-    background-color: #f2ebd9;
-    color:#5d5646;
-    padding: 10%;
+    background-color: hsl(43, 49%, 90%);
+    color:hsl(42, 14%, 32%);
+    padding: 50%;
 }
 footer{
-    background-color: #bbd49e;
-    color:#5d5646
+    background-color: hsl(88, 39%, 73%);
+    color:hsl(42, 14%, 32%)
 }
 .tarjeta{
     border-radius: 15px;
