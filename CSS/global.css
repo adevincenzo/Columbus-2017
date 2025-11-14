@@ -1,0 +1,23 @@
+header{
+    background-color: #bbd49e;
+    color:#5d5646
+}
+body{
+    background-color: #f2ebd9;
+    color:#5d5646;
+}
+footer{
+    background-color: #bbd49e;
+    color:#5d5646
+}
+.tarjeta{
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(255, 252, 240);
+    filter:drop-shadow(2px 2px 3px)
+    
+}
+.tituloTarjeta{
+    font-weight: bold;
+    font-size: 18px;
+}
