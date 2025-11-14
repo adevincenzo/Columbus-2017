@@ -2,7 +2,6 @@ header{
     position:sticky;
     top: 0;
     width: 100%;
-    padding: 10px 16px;
     background-color: hsl(88, 39%, 73%);
     color:#5d5646;
 }
