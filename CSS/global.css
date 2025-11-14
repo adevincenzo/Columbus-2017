@@ -1,7 +1,10 @@
 header{
     position:sticky;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
+    padding: 10px 16px;
     background-color: hsl(88, 39%, 73%);
     color:#5d5646;
 }
@@ -13,13 +16,14 @@ body{
     padding-top: 50px;
 }
 footer{
-    background-color: hsl(88, 39%, 73%);
-    color:hsl(42, 14%, 32%);
     position:static;
     bottom: 0;
     left: 0;
+    right: 0;
     width: 100%;
     padding: 15px;
+    background-color: hsl(88, 39%, 73%);
+    color:hsl(42, 14%, 32%);
 }
 .tarjeta{
     border-radius: 15px;
