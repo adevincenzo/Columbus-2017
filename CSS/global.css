@@ -27,7 +27,7 @@ footer{
 }
 .tarjeta{
     border-radius: 15px;
-    padding: 25px;
+    padding: 25px 15px;
     background-color: rgb(255, 252, 240);
     filter:drop-shadow(2px 2px 3px)
     
