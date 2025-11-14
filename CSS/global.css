@@ -16,7 +16,11 @@ body{
 }
 footer{
     background-color: hsl(88, 39%, 73%);
-    color:hsl(42, 14%, 32%)
+    color:hsl(42, 14%, 32%);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
 }
 .tarjeta{
     border-radius: 15px;
