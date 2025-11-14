@@ -1,10 +1,12 @@
 header{
     background-color: #bbd49e;
-    color:#5d5646
+    color:#5d5646;
+    position: fixed;
 }
 body{
     background-color: #f2ebd9;
     color:#5d5646;
+    padding: 10%;
 }
 footer{
     background-color: #bbd49e;
