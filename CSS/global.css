@@ -5,12 +5,14 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    padding: 25px;
 }
 body{
     background-color: hsl(43, 49%, 90%);
     color:hsl(42, 14%, 32%);
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 5%;
 }
 footer{
     background-color: hsl(88, 39%, 73%);
