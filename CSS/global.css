@@ -14,7 +14,7 @@ body{
     color:hsl(42, 14%, 32%);
     @font-face {
         font-family: 'Futura';
-        src: url
+        src: url('./fonts/Futura Book.ttf') format('ttf');
     }
 }
 footer{
