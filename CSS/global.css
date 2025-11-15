@@ -11,6 +11,7 @@ header{
 }
 body{
     background-color: hsl(43, 49%, 90%);
+    background-size: 100%;
     color:hsl(42, 14%, 32%);
     @font-face {
         font-family: 'Futura';
