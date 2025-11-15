@@ -32,8 +32,7 @@ footer{
     border-radius: 15px;
     padding: 25px 15px;
     background-color: rgb(255, 252, 240);
-    filter:drop-shadow(2px 2px 3px)
-    
+    filter:drop-shadow(2px 2px 3px) 
 }
 .tituloTarjeta{
     font-weight: bold;
@@ -41,5 +40,6 @@ footer{
 }
 .fondoIglesia {
        background-image: url(./Imágenes/Fondos/Brody-Columbus-Iglesia.jpg);
-        opacity: 0.5;
+       opacity: 0.5;
+       background-size: 100%;
 }
