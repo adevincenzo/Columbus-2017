@@ -7,11 +7,12 @@ header{
     padding: 10px 16px;
     background-color: hsl(88, 39%, 73%);
     color:#5d5646;
+    text-align: center;
 }
 body{
     background-color: hsl(43, 49%, 90%);
     color:hsl(42, 14%, 32%);
-    font-family:'Futura'
+    
 }
 footer{
     position:static;
