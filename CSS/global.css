@@ -12,7 +12,10 @@ header{
 body{
     background-color: hsl(43, 49%, 90%);
     color:hsl(42, 14%, 32%);
-    
+    @font-face {
+        font-family: 'Futura';
+        src: url
+    }
 }
 footer{
     position:static;
