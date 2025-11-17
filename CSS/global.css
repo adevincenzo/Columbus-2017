@@ -8,13 +8,13 @@ header{
     color:#5d5646;
     text-align: center;
     vertical-align:center;
-    font-family: 'Jost', sans-serif;
+    font-family: 'futura-pt', sans-serif;
     font-size: 14px;
 }
 body{
     background-color: #f2ebd9;
     color:#5d5646;
-    font-family:'Jost', sans-serif;
+    font-family:'futura-pt', sans-serif;
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
@@ -31,7 +31,7 @@ footer{
     height: 10%;
     background-color: #bbd49e;
     color:#5d5646;
-    font-family:'Jost', sans-serif;
+    font-family:'futura-pt', sans-serif;
 }
 .tarjeta{
     border-radius: 15px;
