@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="https://use.typekit.net/mgg1qbg.css">    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/mgg1qbg.css">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reparto</title>
     <link rel="icon" type="image/x-icon" href="./Imágenes/favicon/faviconColumbus1.jpg">
     <link rel="stylesheet" href="./CSS/global.css">
@@ -10,51 +9,74 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="./index.html" style="text-decoration:none"><img width="200px" src="./Imágenes/Logo.png"> </a>
-            <a href="./about.html" style="text-decoration:none; color: #5d5646; font-weight: bold">ABOUT</a>
-            <a href="./reparto.html" style="text-decoration:none; color: #5d5646; font-weight: bold">REPARTO</a>
-            <a href="./locaciones.html" style="text-decoration:none; color: #5d5646; font-weight: bold">LOCACIONES</a>
-            <a href="./festivales.html" style="text-decoration:none; color: #5d5646; font-weight: bold">FESTIVALES</a>
-            <a href="./contacto.html" style="text-decoration:none; color: #5d5646; font-weight: bold">CONTACTO</a>
+        <nav class="navbar">
+            <h2> <a href="./index.html" style="text-decoration: none; color: #5d5646;">COLUMBUS</a></h2>
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">ABOUT</a>
+                    <a href="./reparto.html" class="nav-link">REPARTO</a>
+                    <a href="./locaciones.html" class="nav-link">LOCACIONES</a>
+                    <a href="./festivales.html" class="nav-link">FESTIVALES</a>
+                    <a href="./contacto.html" class="nav-link">CONTACTO</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <div class="bodyPadding">
-        <h1>
+        <h1 class="kerning">
             REPARTO
         </h1>
         <h2>
             ACTORES PRINCIPALES
         </h2>
-        <div>
-            <img height="200px" src="./Imágenes/Haley Lu Richardson.jpg">
-            <br> Haley Lu Richardson <br><em>Casey</em>
+        <div class="flex-container">
+            <div class="flex-item2" style="text-align: left;">
+                <img height="200px" src="./Imágenes/Haley Lu Richardson.jpg">
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                <p style="font-weight: bolder; font-size:larger"> Haley Lu Richardson</p>
+                <em>"Casey"</em>
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                <img height="200px" src="./Imágenes/John Cho.png">
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                <p style="font-weight: bolder; font-size:larger">John Cho</p>
+                <em>"Jin"</em>
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                <img height="200px" src="./Imágenes/Parker Posey.png">
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                <p style="font-weight: bolder; font-size:larger">Parker Posey</p>
+                <em>"Eleanor"</em>
+            </div>
         </div>
         <hr>
-        <div>
-            <img height="200px" src="./Imágenes/John Cho.png">
-            <br> John Cho <br> <em>Jin</em>
-        </div>
-        <hr>
-        <div>
-            <img height="200px" src="./Imágenes/Parker Posey.png">
-            <br> Parker Posey <br> <em>Eleanor</em>
-        </div>
-        <hr>
-        <h2>
-            ACTORES SECUNDARIOS
-        </h2>
-        <div>
-            <img height="200px" src="./Imágenes/Michelle Forbes.jpeg">
-            <br>Michelle Forbes <br><em>María, la madre de Casey</em>
-        </div>
-        <hr>
-        <div>
-            <img height="200px" src="./Imágenes/Rory Culkin.jpg">
-            <br>Rory Culkin <br><em>Gabriel, el compañero de trabajo de Casey</em>
+        <h2 style="padding-top: 30px">ACTORES SECUNDARIOS</h2>
+        <div class="flex-container">
+            <div class="flex-item2"  style="text-align: left">
+                <img height="200px" src="./Imágenes/Michelle Forbes.jpeg">
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                <h3 style="font-weight: bolder">Michelle Forbes</h3>
+                <em>"María", la madre de Casey</em>
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                <img height="200px" src="./Imágenes/Rory Culkin.jpg">
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                <p style="font-weight: bolder; font-size:larger">Rory Culkin</p>
+                <em>"Gabriel", el compañero de trabajo de Casey</em>
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+
+            </div>
+            <div class="flex-item2" style="text-align: left;">
+                
+            </div>
         </div>
     </div>
-    <br>
     <footer style="padding: 20px">
         <a href="https://www.facebook.com/ColumbusMov/?locale=es_LA" style="text-decoration: none"> <img height="25px" src="./Imágenes/logos/Facebook 2.png"> </a>
         <a href="https://www.imdb.com/es/title/tt5990474/" style="text-decoration: none"> <img height="25px" src="./Imágenes/logos/IMDb 2.png"> </a>

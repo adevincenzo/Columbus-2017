@@ -8,19 +8,20 @@ header{
     color:#5d5646;
     text-align: center;
     vertical-align:center;
-    font-family: 'futura-pt', sans-serif;
-    font-size: 14px;
+    font-family: 'niveau-grotesk', sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
 }
 body{
-    background-color: #f2ebd9;
+    background-color: #e8ecd8;
     color:#5d5646;
-    font-family:'futura-pt', sans-serif;
+    font-family:'niveau-grotesk', sans-serif;
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
 }
 footer{
-    position: fixed;
+    position:static;
     bottom: 0;
     left: 0;
     padding: 10px 16px;
@@ -31,7 +32,7 @@ footer{
     height: 10%;
     background-color: #bbd49e;
     color:#5d5646;
-    font-family:'futura-pt', sans-serif;
+    font-family:'niveau-grotesk', sans-serif;
 }
 .tarjeta{
     border-radius: 15px;
@@ -47,15 +48,15 @@ footer{
     display: flex;
     align-items:center;
 }
-.bodyPadding {
+.bodyPadding{
     padding-left: 3%;
     padding-top: 2%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 }
 .backgroundChurchPadding{
     padding-left: 3%;
     padding-top: 2%;
-    padding-bottom: 15%;
+    padding-bottom: 13%;
     background-image: url(../Imágenes/Fondos/Brody-Columbus-Iglesia.png);
     height:10%;
     background-attachment: fixed;
@@ -63,50 +64,163 @@ footer{
     background-size:cover;
     background-repeat: no-repeat;
 }
-.flex-container {
+.flex-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    align-items: stretch;
+    vertical-align: middle;
 }
-.flex-item {
+.flex-item{
     flex: 1;
     padding: 20px;
     text-align: center;
-    
+    flex-direction: row;
+}
+.flex-item2{
+    flex:1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:left;
+    flex-direction: row;
+    width: 20px;
 }
 .nav{
     align-items: center;
     text-decoration: none;
     color: #5d5646;
 }
-.container {
+.container{
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
   row-gap: 20px;
   column-gap: 20px;
 }
-.container div {
+.container div{
   padding: 10px;
   text-align: center;
   align-content: center;
 }
 
-.container4 {
+.container4{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
   padding: 10px;
+  padding-top: 20px;
   row-gap: 20px;
   column-gap: 20px;
 }
-.container4 div {
+.container4 div{
   padding: 10px;
   text-align: center;
   align-content: center;
 }
-.pagError404{
-    background-color: #c9cfb1;
+.containerCentrado{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
 
+}
+.kerning{
+    letter-spacing: 7px;
+}
+
+.nav-links{
+    list-style: none;
+}
+.nav-item:not(:first-of-type){
+    margin-left: 28.8px;
+}
+.nav-link{
+    color: #5d5646;
+    font-weight: bold;
+}
+.navbar{
+    width: 1300px;
+    height: 44px;
+    padding: 0 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  text-decoration: underline;
+}
+
+.buttonError{
+  background-color: #3b7837;
+  border: none;
+  color: #e8ecd8;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 9px #2f5f2c;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  border-radius: 5px;
+  padding: 20px;
+  width: 450px;
+}
+label {display:block;}
+input, select{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:'niveau-grotesk', sans-serif;
+  font-weight: 300;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #5d5646;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+input[type=submit]:hover {
+  background-color: #464032;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  font-family:'niveau-grotesk', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
 }

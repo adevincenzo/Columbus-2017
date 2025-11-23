@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="https://use.typekit.net/mgg1qbg.css">    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/mgg1qbg.css">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="icon" type="image/x-icon" href="./Imágenes/favicon/faviconColumbus1.jpg">
     <link rel="stylesheet" href="./CSS/global.css">
 </head>
-<body>
+<body style="background-color: #e8ecd8;">
     <header>
-        <nav>
-            <a href="./index.html" style="text-decoration:none"><img width="200px" src="./Imágenes/Logo.png"> </a>
-            <a href="./about.html" style="text-decoration:none; color: #5d5646; font-weight: bold">ABOUT</a>
-            <a href="./reparto.html" style="text-decoration:none; color: #5d5646; font-weight: bold">REPARTO</a>
-            <a href="./locaciones.html" style="text-decoration:none; color: #5d5646; font-weight: bold">LOCACIONES</a>
-            <a href="./festivales.html" style="text-decoration:none; color: #5d5646; font-weight: bold">FESTIVALES</a>
-            <a href="./contacto.html" style="text-decoration:none; color: #5d5646; font-weight: bold">CONTACTO</a>
+        <nav class="navbar">
+            <h2> <a href="./index.html" style="text-decoration: none; color: #5d5646;">COLUMBUS</a></h2>
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="./about.html" class="nav-link">ABOUT</a>
+                    <a href="./reparto.html" class="nav-link">REPARTO</a>
+                    <a href="./locaciones.html" class="nav-link">LOCACIONES</a>
+                    <a href="./festivales.html" class="nav-link">FESTIVALES</a>
+                    <a href="./contacto.html" class="nav-link">CONTACTO</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <div class="bodyPadding">
-        <h1>CONTACTO</h1>
+        <h1 class="kerning">CONTACTO</h1>
         <p>Para conocer más sobre la película, novedades y dónde verla, completá el formulario a continuación:</p>
         <br>
-        <form action="confirmacion.html" method="get">
-            <label for="nombre">Nombre:</label>
-            <br>
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required="">
-            <br>
-            <br>
-            <label for="apellido">Apellido:</label>
-            <br>
-            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required="">
-            <br>
-            <br>
-            <label for="email">Correo electrónico:</label>
-            <br>
-            <input type="email" id="email" name="email" placeholder="tu@email.com" required="">
-            <br>
-            <br>
-            <label for="mensaje">Mensaje:</label>
-            <br>
-            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje aquí" required=""></textarea>
-            <br>
-            <br>
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="containerCentrado">
+            <form action="confirmacion.html" method="get">
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required="">
+                <br>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <br>
+                <input type="text" id="apellido" name="apellido" placeholder="Tu apellido..." required="">
+                <br>
+                <br>
+                <label for="email">Correo electrónico:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required="">
+                <br>
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <br>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje aquí..." required=""></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </div>
     <footer style="padding-top: 20px">
         <a href="https://www.facebook.com/ColumbusMov/?locale=es_LA" style="text-decoration: none"> <img height="25px" src="./Imágenes/logos/Facebook 2.png"> </a>
